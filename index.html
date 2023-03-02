@@ -28,27 +28,22 @@
                 <input type="text" id="carro" placeholder="Nome do carro">
             </div>
             <div class="lineInput">
-                <label>Valor</label>
-                <input type="text" id="valor" placeholder="Valor do carro">
+                <label>Marca</label>
+                <input type="text" id="marca" placeholder="Marca do carro">
             </div>
-            <button id="adicionar">Adicionar</button>
-            <button id="excluir">Excluir</button>
+            <button id="salvar">Salvar</button>
+            <button id="cancelar">Cancelar</button>
         </div>
         <div class="content">
             <table border="1">
                 <thead>
                     <th>ID</th>
                     <th>Carro</th>
-                    <th>Valor</th>
+                    <th>Marca</th>
                     <th>Ações</th>
                 </thead>
-                <tbody>
-                    <tr class="center">
-                        <td>1</td>
-                        <td>Porsche</td>
-                        <td>1.000.000</td>
-                        <td><span>excluir</span> | <span>editar</span></td>
-                    </tr>
+                <tbody id="tbody" class="center">
+                
                 </tbody>
             </table>
         </div>
