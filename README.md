@@ -1,2 +1,3 @@
-# POO-JavaScript
-Projeto de JavaScript feito para fixação e finalização do curso de documentação de javascript pelo MDN
+# Garagem JS
+Projeto feito para fixação de conteudo de JavaScript criando um projeto funcional com HTML, CSS e JS
+
