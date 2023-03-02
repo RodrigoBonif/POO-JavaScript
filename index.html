@@ -5,10 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
     <script src="main.js" defer></script>
     <title>POO - JavaScript</title>
 </head>
 <body>
-    
+    <header>
+        <p>Garagem do Bonifas</p>
+    </header>
+    <main>
+        <div class="title">
+            <h2 class="text-white">Carros</h2>
+            <span class="text-white
+            ">Carros Armazenados na garagem.</span>
+        </div>
+
+        <div class="card">
+            <div class="lineInput">
+                <label>Carro</label>
+                <input type="text" id="carro" placeholder="Nome do carro">
+            </div>
+            <div class="lineInput">
+                <label>Valor</label>
+                <input type="text" id="valor" placeholder="Valor do carro">
+            </div>
+            <button id="adicionar">Adicionar</button>
+            <button id="excluir">Excluir</button>
+        </div>
+        <div class="content">
+            <table border="1">
+                <thead>
+                    <th>ID</th>
+                    <th>Carro</th>
+                    <th>Valor</th>
+                    <th>Ações</th>
+                </thead>
+                <tbody>
+                    <tr class="center">
+                        <td>1</td>
+                        <td>Porsche</td>
+                        <td>1.000.000</td>
+                        <td><span>excluir</span> | <span>editar</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
 </body>
 </html>
